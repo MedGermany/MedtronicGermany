@@ -4463,6 +4463,19 @@ p strong.darkclr {
     margin-right: 5px;
     width: 30px;
 }
+
+
+.sidenav {
+	width: 202px;
+	right: -274px;
+	top: 196px;
+}
+.sidenav h4 {
+	padding: 14px 10px;
+}
+
+
+
 @media screen and (max-height: 450px) {
   .sidenav {padding-top: 15px;}
   .sidenav a {font-size: 16px;}
