@@ -34,7 +34,10 @@ input[type="checkbox"], input[type="radio"] {
 .carousel-inner {
     height: 390px;
 }
-.carousel-fade .carousel-inner .carousel-item {
+.carousel-inner1 {
+    height: 513px;
+}
+.carousel-fade .carousel-inner .carousel-inner1 .carousel-item {
     transition: opacity 1s ease-in-out !important;
     backface-visibility: hidden !important;
     perspective: 1000px !important;
@@ -46,7 +49,7 @@ input[type="checkbox"], input[type="radio"] {
     display: block !important;
     z-index: 1 !important;
 }
-.carousel-fade .carousel-inner .carousel-item.active {
+.carousel-fade .carousel-inner .carousel-inner1 .carousel-item.active {
     opacity: 1 !important;
     z-index: 2 !important;
 }
