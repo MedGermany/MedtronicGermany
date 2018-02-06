@@ -123,4 +123,7 @@ jQuery(document).ready(function($){
       playButton.hide();
     });
   };
+  $('.mobile-search, .open-search').click(function (e) {
+	$(this).toggleClass("open");
+  });
 });
