@@ -1125,7 +1125,7 @@ input[type="radio"]:checked + label::after {
 	background-position: center center;
 	background-repeat: no-repeat;
 }
-.md-box .opened a.faq-open::before {
+.md-box a.faq-open[aria-expanded="true"]::before {
 	background-image: url('../img/ref/minus.svg');
 }
 .md-box_gray {
